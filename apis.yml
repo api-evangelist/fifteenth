@@ -1,7 +1,32 @@
 aid: fifteenth
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fifteenth.png
 name: Fifteenth
-description: Fifteenth is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fifteenth is a San Francisco-based fintech company operating an AI-powered
+  personal tax platform for ambitious earners — founders, investors, executives,
+  and technology professionals with complex financial situations such as equity
+  compensation (ISOs, RSOs, RSUs, NSOs), liquidity events (IPOs and acquisitions),
+  partnership income (K-1s), and active stock and crypto trading. The service
+  pairs dedicated human CPAs with AI-driven automation: users link their banking,
+  payroll, and investment accounts via one-click integrations (Workday, Rippling,
+  Robinhood, Wealthfront, Carta, Charles Schwab, AngelList, Coinbase and more),
+  and the platform automatically detects tax-relevant transactions, organizes
+  documents, models scenarios, and delivers proactive quarterly planning plus
+  unlimited year-round advice at flat-fee pricing starting around $1,000 per year.
+  Fifteenth raised $8.25M in seed funding (February 2025) led by A* and General
+  Catalyst. It is a consumer-facing product with no public developer API surface;
+  this profile captures its identity and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/fifteenth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Taxes
+- Tax Preparation
+- Tax Planning
+- Personal Finance
+- Equity Compensation
+- Accounting
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fifteenth-domain-security.yml
+- type: Website
+  url: https://www.fifteenth.com/
+- type: Pricing
+  url: https://www.fifteenth.com/#Pricing
+- type: SignUp
+  url: https://login.fifteenth.com/sign-up
+- type: Login
+  url: https://app.fifteenth.com
+- type: TermsOfService
+  url: https://www.fifteenth.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.fifteenth.com/privacy
+- type: Blog
+  url: https://www.fifteenth.com/resource-center
+- type: Support
+  url: mailto:hello@fifteenth.com
+- type: TrustCenter
+  url: https://app.drata.com/trust/9a0b5ee4-d65b-489a-bbdb-0fb41a42c1e3
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
