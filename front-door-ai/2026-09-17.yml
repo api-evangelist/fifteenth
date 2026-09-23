@@ -1,0 +1,27 @@
+# Front Door AI Index — fifteenth — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: fifteenth
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.fifteenth.com
+  final_host: www.fifteenth.com
+  ownership: own
+  owner: fifteenth
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 1.56
+  words: 3855
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 6
+  top_terms:
+    AI: 6
+    automation: 4
+    agent: 2
